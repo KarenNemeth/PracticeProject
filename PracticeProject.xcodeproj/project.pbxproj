@@ -20,6 +20,9 @@
 		0E0E9EC815E66F6500063F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0E9EA915E66F6500063F22 /* Foundation.framework */; };
 		0E0E9ED015E66F6500063F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E9ECE15E66F6500063F22 /* InfoPlist.strings */; };
 		0E0E9ED315E66F6500063F22 /* PracticeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E9ED215E66F6500063F22 /* PracticeProjectTests.m */; };
+		0E0E9EDD15E670BF00063F22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E9EDC15E670BF00063F22 /* README.md */; };
+		0E0E9EDF15E673F800063F22 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E9EDE15E673F800063F22 /* .gitignore */; };
+		0E0E9EE115E6746100063F22 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E9EE015E6746100063F22 /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,24 @@
 		0E0E9EA715E66F6500063F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E0E9EA915E66F6500063F22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E0E9EAB15E66F6500063F22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0E0E9EAF15E66F6500063F22 /* PracticeProject-Info.plist */ = {isa = PBXFileReference; path = "PracticeProject-Info.plist"; sourceTree = "<group>"; };
+		0E0E9EAF15E66F6500063F22 /* PracticeProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeProject-Info.plist"; sourceTree = "<group>"; };
 		0E0E9EB115E66F6500063F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E0E9EB315E66F6500063F22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E0E9EB515E66F6500063F22 /* PracticeProject-Prefix.pch */ = {isa = PBXFileReference; path = "PracticeProject-Prefix.pch"; sourceTree = "<group>"; };
-		0E0E9EB615E66F6500063F22 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E0E9EB515E66F6500063F22 /* PracticeProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PracticeProject-Prefix.pch"; sourceTree = "<group>"; };
+		0E0E9EB615E66F6500063F22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E0E9EB715E66F6500063F22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0E0E9EBA15E66F6500063F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0E0E9EBC15E66F6500063F22 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0E0E9EBC15E66F6500063F22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0E0E9EBD15E66F6500063F22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E0E9EC415E66F6500063F22 /* PracticeProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0E9EC515E66F6500063F22 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0E0E9ECD15E66F6500063F22 /* PracticeProjectTests-Info.plist */ = {isa = PBXFileReference; path = "PracticeProjectTests-Info.plist"; sourceTree = "<group>"; };
+		0E0E9ECD15E66F6500063F22 /* PracticeProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticeProjectTests-Info.plist"; sourceTree = "<group>"; };
 		0E0E9ECF15E66F6500063F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0E0E9ED115E66F6500063F22 /* PracticeProjectTests.h */ = {isa = PBXFileReference; path = PracticeProjectTests.h; sourceTree = "<group>"; };
+		0E0E9ED115E66F6500063F22 /* PracticeProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeProjectTests.h; sourceTree = "<group>"; };
 		0E0E9ED215E66F6500063F22 /* PracticeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeProjectTests.m; sourceTree = "<group>"; };
+		0E0E9EDC15E670BF00063F22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0E0E9EDE15E673F800063F22 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E0E9EE015E6746100063F22 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		0E0E9E9815E66F6400063F22 = {
 			isa = PBXGroup;
 			children = (
+				0E0E9EE015E6746100063F22 /* .gitattributes */,
+				0E0E9EDE15E673F800063F22 /* .gitignore */,
+				0E0E9EDC15E670BF00063F22 /* README.md */,
 				0E0E9EAD15E66F6500063F22 /* PracticeProject */,
 				0E0E9ECB15E66F6500063F22 /* PracticeProjectTests */,
 				0E0E9EA615E66F6500063F22 /* Frameworks */,
@@ -223,6 +232,9 @@
 			files = (
 				0E0E9EB215E66F6500063F22 /* InfoPlist.strings in Resources */,
 				0E0E9EBB15E66F6500063F22 /* MainStoryboard.storyboard in Resources */,
+				0E0E9EDD15E670BF00063F22 /* README.md in Resources */,
+				0E0E9EDF15E673F800063F22 /* .gitignore in Resources */,
+				0E0E9EE115E6746100063F22 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
